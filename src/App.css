@@ -13,3 +13,7 @@ div[style*="background: rgba(240, 240, 240, 0.9);"] {
 div[class*="panel-collapse collapse in"] {
   display: block !important;
 }
+
+div[style*="position: fixed; background: rgba(0, 0, 0, 0.3); left: 0px; top: 0px; width: 100%; height: 100%; font-family: sans-serif; z-index: 10000;"] {
+  display: none !important;
+}
